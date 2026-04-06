@@ -5,7 +5,7 @@ public class User {
     private ArrayList<Book> borrowedBooks;
 
 
-    public User(String name, int id ,Book[] listOfBooks) {
+    public User(int id, String name) {
         this.name = name;
         this.id = id;
         this.borrowedBooks = new ArrayList<>();

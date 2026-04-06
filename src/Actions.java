@@ -11,7 +11,7 @@ public interface Actions {
         boolean isAvailable(String title);
         void registerUser(User user);
         void removeUser(User user);
-         String findUser(int userId);
+         User findUser(int userId);
 
 
 }
